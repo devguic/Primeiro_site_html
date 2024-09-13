@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="lightblue">
+    
+
+
+    <fieldset>
+        <legend align="center"> <h3> <font face="times new roman"> Informe seus dados </font></h3></legend>
+        <form action="zcomandos.html" method="post">
+            <label> Nome: </label>
+            <input type="text" name="nome" id="nome" maxlength="80" size="40" placeholder="Digite seu Nome" required>
+
+            <br/> <br/>
+
+            <label> Email: </label>
+            <input type="email" name="mail" id="mail" maxlength="60" size="40" placeholder="Digite seu Email" required>
+
+            <br/> <br/>
+
+            <label> Telefone: </label>
+            <input type="tel" name="fone" id="fone" maxlength="15" size="40" placeholder="Digite seu Telefone" required>
+
+            <br/> <br/>
+
+            <label> Data de Nascimento: </label>
+            <input type="date" name="data_nasc" id="data_nasc" min="1900-01-01" max="2006-09-10" required>
+
+            <br/><br/>
+
+            <label> Senha: </label>
+            <input type="password" name="senha" id="senha" maxlength="60" size="40" placeholder="Informe sua senha: " required>
+            
+            <br/><br/>
+
+            <label> Sexo: </label>
+            <br/> 
+            <input type="radio" name="sexo" id="sexo" value="M" required/>
+            <label> Masculino </label>
+            <input type="radio" name="sexo" id="sexo" value="F" required/>
+            <label> Feminino </label>
+            <input type="radio" name="sexo" id="sexo" value="O" required/>
+            <label> Outro </label>
+            <input type="radio" name="sexo" id="sexo" value="Not" required/>
+            <label> Não Informar </label>
+
+            <br/><br/>
+
+            <label> Para quê deseja ter acesso aos comandos </label>
+            <br/>
+            <input type="checkbox" name="empresarial" id="empresarial" value="empresarial"/>
+            <label> Empresarial </label>
+            <br/>
+            <input type="checkbox" name="pessoal" id="pessoal" value="pessoal"/>
+            <label> Pessoal </label>
+            <br/>
+            <input type="checkbox" name="academico" id="academico" value="academico"/>
+            <label> Acadêmico </label>
+            <br/>
+        
+
+            <br/> <br/>
+
+            <label> Cidade: </label>
+            <select name="cidade" id="cidade">
+                <option value="" selected="selected" required> -- Selecione --</option>
+                <option value="BH"> Belo Horizonte </option>
+                <option value="NL"> Nova Lima </option>
+                <option value="SB"> Sabará </option>
+                <option value="RC"> Rio Acima </option>
+                <option value="RP"> Raposos </option>
+            </select>
+<br/> <br/>
+    
+<h2>
+<label> Comentário </label>
+</h2>
+<textarea name="coment" id="coment" cols="40" rows="10" maxlength="200" placeholder="Digite seu comentário" required></textarea>
+<br/> <br/>
+
+<h2> Envie seus dados corretamente para ter acesso à tabela</h2>
+<input type="submit" name="enviar" id="enviar" value="ENVIAR">
+<input type="reset" name="limpar" id="limpar" value="LIMPAR">
+        </form>
+    </fieldset>
+    </td></tr>
+    </table>
+
+
+</body>
+</html>
